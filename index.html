@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>Quiz-Website</title>
 </head>
 <body>
     <div class="intro py-3 bg-white text-center">
@@ -26,50 +26,122 @@
 
         <form class="quiz-form text-light">
           <div class="my-5">
-            <p class="lead font-weight-normal">What do you think about Codeforces Website?</p>
+            <p class="lead font-weight-normal">push() and pop() functions are found in</p>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "A" name = "q1" checked>
-              <label class="form-label">Excellent</label>
+              <label class="form-label">queues</label>
             </div>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "B" name = "q1">
-              <label class="form-label">Awesome</label>
+              <label class="form-label">stacks</label>
             </div>
           </div>
 
           <div class="my-5">
-            <p class="lead font-weight-normal">What is your name?</p>
+            <p class="lead font-weight-normal">Binary search tree has best case run-time complexity of Ο(log n). What could the worst case?</p>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "A" name = "q2">
-              <label class="form-label">Because tourist uses some other search technique</label>
+              <label class="form-label">O(log(n))</label>
             </div>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "B" name = "q2">
-              <label class="form-label">Because tourist already knows where the answer is.</label>
+              <label class="form-label">O(n)</label>
             </div>
           </div>
 
           <div class="my-5">
-            <p class="lead font-weight-normal">Why do Prime numbers have no factors other than 1 and the number itself?</p>
+            <p class="lead font-weight-normal">Which of these alogrithmic approach tries to achieve localized optimum solution −</p>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "A" name = "q3">
-              <label class="form-label">Because tourist hasn't tried to factorise the prime numbers.</label>
+              <label class="form-label">Greedy approach</label>
             </div>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "B" name = "q3">
-              <label class="form-label">Because Prime number is not composite number.</label>
+              <label class="form-label">Divide and conquer approach</label>
             </div>
           </div>
 
           <div class="my-5">
-            <p class="lead font-weight-normal">Where do you see yourself in next 5 years?</p>
+            <p class="lead font-weight-normal">Which of the following operations is not O(1) for an array of sorted data. You may assume that array elements are distinct.</p>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "A" name = "q4">
-              <label class="form-label">I want to be in place of you.</label>
+              <label class="form-label">Delete an element</label>
             </div>
             <div class="form-check my-2 text-white-50">
               <input type="radio" value = "B" name = "q4">
-              <label class="form-label">I will work hard for the company.</label>
+              <label class="form-label">Find the ith smallest element</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">The minimum number of comparisons required to determine if an integer appears more than n/2 times in a sorted array of n integers is</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "A" name = "q5">
+              <label class="form-label">O(n)</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "B" name = "q5">
+              <label class="form-label">O(log(n))</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">Which of the following correctly declares an array?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "A" name = "q6">
+              <label class="form-label">int geeks[20];</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "B" name = "q6">
+              <label class="form-label">array geeks[20];</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "A" name = "q7">
+              <label class="form-label">Quick Sort</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "B" name = "q7">
+              <label class="form-label">Merge Sort</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "A" name = "q8">
+              <label class="form-label">O(n)</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "B" name = "q8">
+              <label class="form-label">O(n/2)</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">For a given linked list p, the function f returns 1 if and only if</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "A" name = "q9">
+              <label class="form-label">the elements in the list are sorted in non-increasing order of data value</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "B" name = "q9">
+              <label class="form-label">the elements in the list are sorted in non-decreasing order of data value</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">Is it possible to create a doubly linked list using only one pointer with every node.</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "A" name = "q10">
+              <label class="form-label">Yes, possible by storing XOR of addresses of previous and next nodes.</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" value = "B" name = "q10">
+              <label class="form-label">Yes, possible by storing XOR of current node and previous node</label>
             </div>
           </div>
 
